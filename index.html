@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>Sample Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo">TVS<span>.</span></a>
+      <div class="menuToggle" onclick="toggleMenu();"></div>
+      <ul class="navigation">
+        <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About Us</a></li>
+        <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+        <li><a href="#founders" onclick="toggleMenu();">Founders</a></li>
+        <li><a href="#testimonial" onclick="toggleMenu();">Testimonials</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact Us</a></li>
+      </ul>
+    </header>
+    <section class="banner" id="banner">
+      <div class="content">
+        <h2>The Sample Shop</h2>
+        <p>
+          We are here as a community to help everyone around us with clothing,
+          home decor, furnitures, fruit baskets, and stuff. To get to know more
+          about us, feel free to navigate through the site.
+        </p>
+        <a href="#" class="btn">Our Menu</a>
+        <!--href="#" doesn't specify an id name, but does have a corresponding location - the top of the page. Clicking an anchor with href="#" will move the scroll position to the top.-->
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col50">
+          <h2 class="titleText"><span>A</span>bout Us</h2>
+          <p>
+            We are here as a community to help everyone around us with clothing,
+            home decor, furnitures, fruit baskets, and stuff. To get to know
+            more about us, feel free to navigate through the site. We are here
+            as a community to help everyone around us with clothing, home decor,
+            furnitures, fruit baskets, and stuff. To get to know more about us,
+            feel free to navigate through the site. We are here as a community
+            to help everyone around us with clothing, home decor, furnitures,
+            fruit baskets, and stuff. To get to know more about us, feel free to
+            navigate through the site.<br />
+            <br />
+            We are here as a community to help everyone around us with clothing,
+            home decor, furnitures, fruit baskets, and stuff. To get to know
+            more about us, feel free to navigate through the site.
+          </p>
+        </div>
+        <div class="col50">
+          <div class="imgBox">
+            <img src="Images/img1.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu" id="menu">
+      <div class="title">
+        <h2 class="titleText"><span>O</span>ur Menu</h2>
+        <p>Hope you are having a good day, this is menu!!</p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgBox">
+            <img src="Images/clothing.jpg" />
+          </div>
+          <div class="text">
+            <h3>Clothing</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBox">
+            <img src="Images/fruits.jpg" />
+          </div>
+          <div class="text">
+            <h3>Fruit Baskets</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBox">
+            <img src="Images/furni.jpg" />
+          </div>
+          <div class="text">
+            <h3>Furniture</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBox">
+            <img src="Images/decor.jpg" />
+          </div>
+          <div class="text">
+            <h3>Decor</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBox">
+            <img src="Images/veg.jpg" />
+          </div>
+          <div class="text">
+            <h3>Vegetables</h3>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <a href="#" class="btn">View All</a>
+      </div>
+    </section>
+    <section class="founders" id="founders">
+      <div class="title">
+        <h2 class="titleText"><span>F</span>ounders</h2>
+        <p>Meet our founders, today you are here, because of them.</p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgBox">
+            <img src="Images/momDad.jpg" />
+          </div>
+          <div class="text">
+            <h3>Mr. Mukesh Sharma & Mrs. Babita Sharma</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBox">
+            <img src="Images/tanvi.jpeg" />
+          </div>
+          <div class="text">
+            <h3>Tanvi Sharma</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBox">
+            <img src="Images/srishti.jpeg" />
+          </div>
+          <div class="text">
+            <h3>Srishti Sharma</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial" id="testimonial">
+      <div class="title clr">
+        <h2 class="titleText"><span>T</span>estimonials</h2>
+        <p>
+          Here are some words from our customers. You can get their reviews from
+          here!
+        </p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgBox">
+            <img src="Images/testi1.jpg" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              molestiae, provident aut minus fuga laborum sed explicabo quo,
+              animi, dignissimos aliquam temporibus accusantium pariatur quasi
+              laboriosam possimus vitae quam quaerat?
+            </p>
+            <h3>Someone</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBox">
+            <img src="Images/testi2.jpg" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              molestiae, provident aut minus fuga laborum sed explicabo quo,
+              animi, dignissimos aliquam temporibus accusantium pariatur quasi
+              laboriosam possimus vitae quam quaerat?
+            </p>
+            <h3>Someone</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBox">
+            <img src="Images/testi3.jpg" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              molestiae, provident aut minus fuga laborum sed explicabo quo,
+              animi, dignissimos aliquam temporibus accusantium pariatur quasi
+              laboriosam possimus vitae quam quaerat?
+            </p>
+            <h3>Someone</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="title">
+        <h2 class="titleText"><span>C</span>ontact Us</h2>
+        <p>We're here to help.</p>
+      </div>
+      <div class="contactForm">
+        <h3>Send Message</h3>
+        <div class="inputBox">
+          <input type="text" name="" placeholder="First Name" />
+        </div>
+        <div class="inputBox">
+          <input type="text" name="" placeholder="Last Name" />
+        </div>
+        <div class="inputBox">
+          <input type="email" name="" placeholder="Email" />
+        </div>
+        <div class="inputBox">
+          <textarea placeholder="Message"></textarea>
+        </div>
+        <div class="inputBox">
+          <input type="submit" value="Send" />
+        </div>
+      </div>
+    </section>
+    <div class="copyrightText">
+      <p>Copyright <a href="#">The Sample</a>. All Right Reserved.</p>
+    </div>
+    <script>
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      function toggleMenu() {
+        const menuToggle = document.querySelector(".menuToggle");
+        const navigation = document.querySelector(".navigation");
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
